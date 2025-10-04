@@ -1,3 +1,8 @@
+"scripts": {
+  "predeploy": "pnpm run build",
+  "deploy": "gh-pages -d dist",
+  // ... outros scripts
+}
 {
   "name": "calculadora-demanda-nbr5410",
   "private": true,
